@@ -5,5 +5,6 @@ type Event struct {
 	UserID    string
 	CreatedAt string
 	Source    string
+	Weight    float64
 	RawData   string
 }

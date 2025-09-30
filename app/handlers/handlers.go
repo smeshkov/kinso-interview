@@ -40,7 +40,7 @@ func New(c context.Context, cfg *config.Config, run *config.RuntimeConfig, log *
 		root.Get("/info", server.AppHandlerFunc(infoHandler(run)))
 
 		root.Route("/api/v1/events", func(r chi.Router) {
-			r.Get("/", server.AppHandlerFunc(getEvents))
+			r.Get("/{userID}", server.AppHandlerFunc(getUserEvents))
 		})
 	})
 
@@ -57,10 +57,15 @@ func infoHandler(run *config.RuntimeConfig) func(http.ResponseWriter, *http.Requ
 	}
 }
 
-func getEvents(w http.ResponseWriter, r *http.Request) *server.AppError {
+func getUserEvents(w http.ResponseWriter, r *http.Request) *server.AppError {
 	c := r.Context()
 
-	events := ctx.DB.GetAll()
+	uid := chi.URLParam(r, "userID")
+	if uid == "" {
+		return server.StatusBadRequest(c, "User ID is required.")
+	}
+
+	events := ctx.DB.GetByUserID(uid)
 
 	return server.WriteResponse(c, w, map[string]any{
 		"data": map[string]any{

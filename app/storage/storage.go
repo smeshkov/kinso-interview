@@ -6,40 +6,48 @@ import (
 )
 
 type Storage struct {
-	// O(1) by key access
-	hash map[string]*Event
+	// ID hash index
+	primary map[string]*Event
 
-	// sorted list
-	list []*Event
+	// UserID index
+	byUserID map[string][]*Event
 }
 
 func New() *Storage {
 	return &Storage{
-		hash: map[string]*Event{},
-		list: []*Event{},
+		primary:  map[string]*Event{},
+		byUserID: map[string][]*Event{},
 	}
 }
 
 func (s *Storage) Put(event *Event) bool {
-	if _, exists := s.hash[event.ID]; exists {
+	if _, exists := s.primary[event.ID]; exists {
 		return false
 	}
 
-	s.hash[event.ID] = event
-	s.list = append(s.list, event)
+	s.primary[event.ID] = event
 
-	// order elements by timestamp
-	slices.SortFunc(s.list, func(a, b *Event) int {
-		return strings.Compare(a.CreatedAt, b.CreatedAt)
+	if _, exists := s.byUserID[event.UserID]; !exists {
+		s.byUserID[event.UserID] = []*Event{}
+	}
+	s.byUserID[event.UserID] = append(s.byUserID[event.UserID], event)
+
+	// order elements by weight
+	slices.SortFunc(s.byUserID[event.UserID], func(a, b *Event) int {
+		w := int(b.Weight*100) - int(a.Weight*100)
+		if w == 0 {
+			return strings.Compare(b.CreatedAt, a.CreatedAt)
+		}
+		return w
 	})
 
 	return true
 }
 
-func (s *Storage) Get(key string) *Event {
-	return s.hash[key]
+func (s *Storage) GetByID(id string) *Event {
+	return s.primary[id]
 }
 
-func (s *Storage) GetAll() []*Event {
-	return s.list
+func (s *Storage) GetByUserID(userID string) []*Event {
+	return s.byUserID[userID]
 }

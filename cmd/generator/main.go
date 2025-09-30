@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/google/uuid" // Requires: go get github.com/google/uuid
+	"github.com/google/uuid"
 )
 
 // EventDTO represents the desired JSON structure.
@@ -15,27 +15,29 @@ type EventDTO struct {
 	EventID   string `json:"eventId"`
 	UserID    string `json:"userId"`
 	CreatedAt string `json:"createdAt"`
-	Source    string `json:"source"`  // Gmail, Slack, WhatsApp, LinkedIn and etc
-	RawData   string `json:"rawData"` // raw data in JSON format
+	Source    string `json:"source"`
+	RawData   string `json:"rawData"`
 }
 
-// generateEvent creates a single EventDTO object with mock data.
-func generateEvent() EventDTO {
+// generateEvent creates a single EventDTO with mock data.
+func generateEvent(userIDs []string) EventDTO {
 	sources := []string{"Gmail", "Slack", "WhatsApp", "LinkedIn"}
 
-	// 1. Generate unique IDs
+	// Use a UUID for the unique EventID
 	eventID := uuid.New().String()
-	userID := uuid.New().String()[:8] // Truncate for a simpler look
 
-	// 2. Generate a recent, but random, UTC timestamp in ISO 8601 format (ending in Z)
+	// Randomly select a UserID from the pre-generated pool
+	userID := userIDs[rand.Intn(len(userIDs))]
+
+	// Generate a recent, but random, UTC timestamp in ISO 8601 format
 	now := time.Now().UTC()
 	randomOffsetSeconds := time.Duration(rand.Intn(86400*7)) * time.Second // Up to 7 days in the past
 	createdAt := now.Add(-randomOffsetSeconds).Format("2006-01-02T15:04:05.000000Z")
 
-	// 3. Select a random source
+	// Select a random source
 	source := sources[rand.Intn(len(sources))]
 
-	// 4. Generate RawData as a JSON string
+	// Generate RawData as a JSON string
 	rawDataContent := map[string]interface{}{
 		"type":        []string{"message", "notification", "alert"}[rand.Intn(3)],
 		"status":      []string{"read", "unread", "archived"}[rand.Intn(3)],
@@ -54,17 +56,24 @@ func generateEvent() EventDTO {
 }
 
 func main() {
-	const count = 100
+	const totalEvents = 100
+	const uniqueUsers = 20 // Number of unique user IDs to generate
 
 	// Seed the random number generator
 	rand.New(rand.NewSource(time.Now().UnixNano()))
 
-	// Create a slice to hold the events
-	events := make([]EventDTO, count)
+	// Create a pool of a few unique user IDs to ensure repetition
+	userIDs := make([]string, uniqueUsers)
+	for i := 0; i < uniqueUsers; i++ {
+		userIDs[i] = uuid.New().String()[:8] // Truncate for a simpler look
+	}
 
-	// Populate the slice with 100 generated events
-	for i := 0; i < count; i++ {
-		events[i] = generateEvent()
+	// Create a slice to hold the events
+	events := make([]EventDTO, totalEvents)
+
+	// Populate the slice
+	for i := range totalEvents {
+		events[i] = generateEvent(userIDs)
 	}
 
 	// Marshal the slice into a pretty-printed JSON byte array
