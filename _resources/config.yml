@@ -1,0 +1,11 @@
+server:
+  name: Message Priority Engine
+  addr: ":8080"
+  idletimeout: 10s
+  readtimeout: 30s
+  writetimeout: 50s
+
+env:
+  local:
+    envname: local
+    queueaddr: _data/events.json

@@ -1,0 +1,702 @@
+[
+  {
+    "eventId": "98dac756-22e3-4010-8bd8-38a4a1ddee8b",
+    "userId": "f03fe67d",
+    "createdAt": "2025-09-26T08:58:56.687117Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":145,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "faf97289-24c3-4d80-be55-f09e05651603",
+    "userId": "b5b667f3",
+    "createdAt": "2025-09-27T06:43:03.687231Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":78,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "3d554cd7-035b-497e-b5bf-8d901678dbe2",
+    "userId": "9c877214",
+    "createdAt": "2025-09-23T11:20:52.687233Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":415,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "6c919d00-ad1e-4930-999d-3c6c975a2b17",
+    "userId": "f33e37a8",
+    "createdAt": "2025-09-23T21:24:19.687235Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":131,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "6dd6cf33-3351-4d08-9f0a-7ff3495f9560",
+    "userId": "27da6254",
+    "createdAt": "2025-09-27T18:29:37.687236Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":62,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "bda580e9-0459-40af-8d75-a00f0759b8d1",
+    "userId": "5c2cf44d",
+    "createdAt": "2025-09-26T11:39:36.687238Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":389,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "6fcf0ec3-4979-4bd0-b88c-2d56d809c96b",
+    "userId": "9f09aa00",
+    "createdAt": "2025-09-27T22:45:51.687240Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":92,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "df5db878-e12d-440e-b54a-ed80b6e44eb8",
+    "userId": "d682511e",
+    "createdAt": "2025-09-23T18:31:10.687241Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":243,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "62718e91-6277-4a36-a7d5-b9c6269900f8",
+    "userId": "ee6dbb15",
+    "createdAt": "2025-09-26T06:17:48.687243Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":268,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "160d999b-1f5d-44a2-8646-d12b9f9fb745",
+    "userId": "0aa3f45e",
+    "createdAt": "2025-09-24T07:13:56.687245Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":112,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "993a18a4-572d-4190-bd92-7c149babe791",
+    "userId": "cd34fd29",
+    "createdAt": "2025-09-28T11:11:22.687246Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":219,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "7672a876-0423-40ba-9d54-6098872daa80",
+    "userId": "775b38cb",
+    "createdAt": "2025-09-25T03:51:39.687248Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":317,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "43b5948e-1e35-43c3-a834-626529620d4f",
+    "userId": "0f55a0c3",
+    "createdAt": "2025-09-29T04:00:21.687249Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":297,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "6f1b4957-9999-4289-a827-7c84c72426ed",
+    "userId": "8cffef32",
+    "createdAt": "2025-09-25T22:53:50.687251Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":233,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "068fa389-8bb3-47cf-b321-46e81117643c",
+    "userId": "4fefaea1",
+    "createdAt": "2025-09-27T21:46:52.687252Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":497,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "272f62ec-e0ca-4f33-985b-43ed89c851a2",
+    "userId": "4c8634bc",
+    "createdAt": "2025-09-29T06:02:09.687254Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":280,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "43896cb9-8f2a-4339-b0e6-045dff4c2462",
+    "userId": "1695435d",
+    "createdAt": "2025-09-27T02:16:19.687255Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":288,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "c64e765e-07c2-40df-afd5-93c47a994869",
+    "userId": "8a1a6a16",
+    "createdAt": "2025-09-23T19:54:44.687257Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":158,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "f92d6ea6-3c51-49aa-a1f7-081944e42ef5",
+    "userId": "6e433f6b",
+    "createdAt": "2025-09-27T03:24:20.687258Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":53,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "b55a4632-1775-465d-86e5-250776670072",
+    "userId": "77a3ec94",
+    "createdAt": "2025-09-23T14:21:31.687260Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":177,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "9b54b8b3-9328-436a-b728-b1aa9daab9ad",
+    "userId": "b26acc85",
+    "createdAt": "2025-09-28T02:27:27.687262Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":463,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "728ce090-ef3b-4ac0-955f-695dee349d7a",
+    "userId": "d66362c5",
+    "createdAt": "2025-09-26T09:40:51.687263Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":181,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "8f6ad586-87db-46d5-9855-b4cecd7e366c",
+    "userId": "a920aa92",
+    "createdAt": "2025-09-23T11:28:02.687265Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":69,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "e47683e1-58fb-434c-b611-0ee9d2b66e37",
+    "userId": "b941b15f",
+    "createdAt": "2025-09-25T15:05:32.687266Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":342,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "655ba02e-3d0a-4c4a-982f-91603de84686",
+    "userId": "78f27c91",
+    "createdAt": "2025-09-25T22:10:25.687268Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":461,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "37a1de8d-b2c1-4f90-9fe7-1f2be9d92c07",
+    "userId": "57c78095",
+    "createdAt": "2025-09-26T04:10:55.687270Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":420,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "14b16c5b-2f44-4033-89d6-bb53cf12fa8b",
+    "userId": "8eb4ba85",
+    "createdAt": "2025-09-27T23:12:09.687271Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":379,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "9937dffb-a622-499a-b2bf-cc5a74fd3130",
+    "userId": "06f11425",
+    "createdAt": "2025-09-27T03:52:16.687273Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":366,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "7c725bbf-aaff-4fc5-9745-4bd122f4994b",
+    "userId": "71a8b52f",
+    "createdAt": "2025-09-23T17:41:38.687274Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":56,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "2374f105-2bcc-4c21-99ea-7b7e6654a437",
+    "userId": "eab967f8",
+    "createdAt": "2025-09-26T06:14:32.687277Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":65,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "212b7617-c007-42e1-b0e9-0538e005ebff",
+    "userId": "e2f8f716",
+    "createdAt": "2025-09-30T04:17:57.687279Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":115,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "4bcd6b8e-be2c-49f0-9cf7-9f3a7af57d45",
+    "userId": "f0b7488e",
+    "createdAt": "2025-09-24T18:35:26.687280Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":125,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "b90e7375-41d9-4dfa-9708-8595dad22c19",
+    "userId": "fbda6ca3",
+    "createdAt": "2025-09-29T00:28:06.687282Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":371,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "13a1c509-27f9-4409-b906-58f9abd0af51",
+    "userId": "ec3906bd",
+    "createdAt": "2025-09-29T06:23:45.687283Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":428,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "eef00507-1a73-4ffc-b977-da1616e01d3d",
+    "userId": "ae023349",
+    "createdAt": "2025-09-29T09:45:02.687285Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":329,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "ea21b607-ca70-4fcb-a7f3-3ba4def9853a",
+    "userId": "fb1630c7",
+    "createdAt": "2025-09-29T04:27:40.687286Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":339,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "57f13527-5e72-405d-8cbd-e19e13c839a8",
+    "userId": "11d9f91b",
+    "createdAt": "2025-09-26T11:33:12.687288Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":170,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "504c8129-bd23-4852-a76b-9f9ba43287c6",
+    "userId": "a85dfb24",
+    "createdAt": "2025-09-27T07:26:24.687289Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":423,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "a5ff7d09-632c-440f-abc9-9e4f1f4bdace",
+    "userId": "adca30c8",
+    "createdAt": "2025-09-25T14:42:47.687291Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":484,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "658150ef-3f17-4bb5-9439-78bff48d4026",
+    "userId": "b45e6c7d",
+    "createdAt": "2025-09-24T21:11:10.687292Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":431,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "3a9f51ff-5b5f-44eb-a85b-c5beaae06962",
+    "userId": "5b207f46",
+    "createdAt": "2025-09-26T17:16:11.687294Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":172,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "0e4b9fc7-94ee-47fa-8cce-4248969c3bc1",
+    "userId": "b3498a2b",
+    "createdAt": "2025-09-28T10:39:44.687295Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":167,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "469a7169-9fa1-4965-ad42-fd467c738c33",
+    "userId": "c9dc90c8",
+    "createdAt": "2025-09-28T02:36:07.687297Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":266,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "74692118-429a-4ecd-9ea0-544038e1161e",
+    "userId": "ebc5413c",
+    "createdAt": "2025-09-27T21:05:13.687298Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":500,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "3e59fee2-2ddd-44a1-8246-301c963545ad",
+    "userId": "79d2b44a",
+    "createdAt": "2025-09-27T21:33:01.687300Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":213,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "2f849b15-43b5-46fb-9426-f6278c395d71",
+    "userId": "096b05a8",
+    "createdAt": "2025-09-27T07:13:03.687301Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":235,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "e8d33a1a-67ad-4d1e-bcee-23614e8ff318",
+    "userId": "cb105cc2",
+    "createdAt": "2025-09-29T11:47:16.687303Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":231,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "e3bf03dd-b207-44d2-98a8-7cfa8e4ecd94",
+    "userId": "140508be",
+    "createdAt": "2025-09-26T14:50:09.687304Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":393,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "abf08c81-b3a6-42f7-836c-c9bfd2b131d1",
+    "userId": "385626d0",
+    "createdAt": "2025-09-25T19:28:03.687306Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":263,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "6361408e-7e98-442e-8c39-b63d741f1a57",
+    "userId": "95d6b281",
+    "createdAt": "2025-09-26T09:53:10.687307Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":118,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "c4e8b8e3-235c-43a5-abd4-616f45456e24",
+    "userId": "d133e799",
+    "createdAt": "2025-09-24T15:04:18.687309Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":241,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "15c2c598-28dc-491a-9b71-de2f2b5f5823",
+    "userId": "c3b56888",
+    "createdAt": "2025-09-23T06:57:16.687310Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":118,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "b2916d8a-cccf-456d-9771-6100b1913305",
+    "userId": "c233389b",
+    "createdAt": "2025-09-24T20:07:29.687312Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":206,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "a38ada1b-ad0e-4ca8-97a7-531104a7007e",
+    "userId": "5487806f",
+    "createdAt": "2025-09-23T10:54:40.687313Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":490,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "c416a623-ab1d-4f3f-8eec-34b6a6aa876d",
+    "userId": "392c2317",
+    "createdAt": "2025-09-25T08:35:30.687315Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":58,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "1da7875a-b1b1-49b4-a387-a7b583c002e6",
+    "userId": "1a295f25",
+    "createdAt": "2025-09-28T09:10:14.687316Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":320,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "a17d3119-c4a9-40ce-8548-ec7867b1a61c",
+    "userId": "9c128bcd",
+    "createdAt": "2025-09-24T14:45:55.687318Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":387,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "233a2da2-add9-494b-b253-da41a5f5865d",
+    "userId": "20b1bd02",
+    "createdAt": "2025-09-28T09:38:01.687321Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":252,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "5a33be2b-c423-48d8-9a16-b4452ad0d2b6",
+    "userId": "176bd1f8",
+    "createdAt": "2025-09-27T20:22:14.687323Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":432,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "73de240b-9777-4f30-9481-758d885c9bed",
+    "userId": "c556739d",
+    "createdAt": "2025-09-23T21:41:36.687324Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":298,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "70bf848c-9460-42d0-9089-c39c322a167a",
+    "userId": "b9bf5f3a",
+    "createdAt": "2025-09-27T16:24:40.687326Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":333,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "2023d413-96c1-4fcd-9a5e-dc3b6ab96717",
+    "userId": "31c7c25e",
+    "createdAt": "2025-09-28T08:00:58.687329Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":284,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "00c628c8-6e2b-477f-8eba-b312af878a56",
+    "userId": "30987036",
+    "createdAt": "2025-09-27T02:37:04.687332Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":165,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "4e36504d-e9c1-4ef2-a86d-cd2766de7dea",
+    "userId": "42c8381e",
+    "createdAt": "2025-09-26T12:22:11.687334Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":284,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "bd00931d-0a3b-4739-9747-0b4ea9eccc89",
+    "userId": "3aa568cf",
+    "createdAt": "2025-09-28T02:25:29.687336Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":467,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "c84c6165-c711-4147-bb50-5a4ea6020c43",
+    "userId": "c0501e73",
+    "createdAt": "2025-09-29T00:32:38.687337Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":261,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "4d8d4216-6ad6-4144-aa68-0de9b2e545d3",
+    "userId": "0f3233cf",
+    "createdAt": "2025-09-29T04:44:08.687339Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":349,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "43827c47-5d42-438e-9cfd-220b591a6d16",
+    "userId": "95dd63e4",
+    "createdAt": "2025-09-24T03:05:49.687341Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":322,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "5fa00af5-74f7-469e-bb0f-76c66c7272b1",
+    "userId": "d53f9dc3",
+    "createdAt": "2025-09-23T05:23:18.687342Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":481,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "d29110be-7f1a-431f-9b50-29c71e0be965",
+    "userId": "16cff09e",
+    "createdAt": "2025-09-27T00:46:19.687344Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":383,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "3bccad1b-33f9-4c9a-a00e-943501d452e8",
+    "userId": "347574d4",
+    "createdAt": "2025-09-28T22:43:40.687345Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":414,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "88c95869-6034-4251-806a-f66ed4715590",
+    "userId": "74cce25b",
+    "createdAt": "2025-09-29T12:30:32.687347Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":345,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "5ebbb4c8-808e-47eb-9ba9-04c01ae2666e",
+    "userId": "3f26ef4d",
+    "createdAt": "2025-09-24T17:47:27.687348Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":241,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "35f13e88-b077-439b-8452-bc2b0476dd36",
+    "userId": "19f7118f",
+    "createdAt": "2025-09-26T15:33:11.687350Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":92,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "132f8015-8bf7-4903-bf49-4f19e6e7bc2e",
+    "userId": "ad06b653",
+    "createdAt": "2025-09-25T10:23:51.687351Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":91,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "3784c514-7ee1-4d9e-bca3-f2eb4d33ca90",
+    "userId": "dfcae447",
+    "createdAt": "2025-09-28T14:04:40.687353Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":180,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "c01fd225-2e59-4fde-8290-85b2fc0eb796",
+    "userId": "0c90231f",
+    "createdAt": "2025-09-26T00:53:57.687354Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":52,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "a73b6e8a-8c61-4b68-b8fb-8e94883e7b8d",
+    "userId": "eeeae382",
+    "createdAt": "2025-09-28T12:53:25.687356Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":233,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "12b67def-5693-4ce0-8eb7-c4c7141bd748",
+    "userId": "7e453639",
+    "createdAt": "2025-09-25T05:01:15.687357Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":457,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "2566f82e-71b0-4494-b105-b4991412f872",
+    "userId": "0de33c84",
+    "createdAt": "2025-09-24T06:47:11.687359Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":111,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "4a71ab8e-fdfe-4e90-9408-f6d515830d24",
+    "userId": "3159d849",
+    "createdAt": "2025-09-29T06:03:12.687360Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":319,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "f4404381-a405-4c43-a250-72baed71b869",
+    "userId": "e7f7200b",
+    "createdAt": "2025-09-28T17:47:06.687365Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":158,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "f7fe7801-6c50-4684-86d8-9dc2a660b05a",
+    "userId": "c7dfb257",
+    "createdAt": "2025-09-30T03:05:20.687366Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":500,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "a2a82a57-376a-4311-b5ca-f86cb46c3f35",
+    "userId": "7ce7e834",
+    "createdAt": "2025-09-23T16:28:37.687368Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":286,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "231d0f3c-627f-401a-89bf-6fa1696f166e",
+    "userId": "50ae55e3",
+    "createdAt": "2025-09-23T13:06:38.687369Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":314,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "fa72de1d-1960-4373-8410-bdc1f7704158",
+    "userId": "c4abfed5",
+    "createdAt": "2025-09-25T15:24:07.687371Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":58,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "349f1da1-0be0-4947-ba6a-28ca33abea08",
+    "userId": "9f8224d8",
+    "createdAt": "2025-09-25T08:36:15.687373Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":365,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "708b4bfa-8847-469d-bec4-dc7d591e1b20",
+    "userId": "7e1ef0c5",
+    "createdAt": "2025-09-28T09:54:04.687374Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":204,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "2a3567c5-bd7d-46d1-9501-cb65be528c49",
+    "userId": "42419272",
+    "createdAt": "2025-09-26T13:10:23.687376Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":153,\"status\":\"unread\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "1f60dc89-e808-440b-a335-42725af75e6b",
+    "userId": "0e223ecf",
+    "createdAt": "2025-09-28T02:06:29.687377Z",
+    "source": "LinkedIn",
+    "rawData": "{\"data_length\":135,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "371ce8a1-3a6c-4c88-a65f-c810d9024e0f",
+    "userId": "1eabd4ff",
+    "createdAt": "2025-09-29T02:18:33.687379Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":304,\"status\":\"archived\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "0337502f-568e-4411-a9d0-0360e196dd4b",
+    "userId": "db52bedf",
+    "createdAt": "2025-09-30T03:55:31.687380Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":285,\"status\":\"read\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "3508f6bd-1e6d-460e-b023-172a49fd4a18",
+    "userId": "5290217b",
+    "createdAt": "2025-09-29T21:12:44.687382Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":79,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "5b38ce71-60cc-4056-a2ad-6676a3ae2508",
+    "userId": "2ed57263",
+    "createdAt": "2025-09-26T10:20:06.687383Z",
+    "source": "Slack",
+    "rawData": "{\"data_length\":102,\"status\":\"read\",\"type\":\"notification\"}"
+  },
+  {
+    "eventId": "d09a0885-3186-4387-8fd2-76e15b3699d1",
+    "userId": "eb80e2c1",
+    "createdAt": "2025-09-28T14:48:10.687385Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":159,\"status\":\"read\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "cf527003-65e5-4450-a432-f4c932c6bc41",
+    "userId": "a82645be",
+    "createdAt": "2025-09-26T05:21:35.687386Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":148,\"status\":\"unread\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "03b9dcf3-99ad-4223-90cd-62950e447644",
+    "userId": "010bffe9",
+    "createdAt": "2025-09-28T23:08:45.687387Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":248,\"status\":\"unread\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "82aaec76-f98c-4e47-ab0e-a8710517e366",
+    "userId": "7fe5fcfc",
+    "createdAt": "2025-09-27T20:20:55.687389Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":306,\"status\":\"archived\",\"type\":\"message\"}"
+  },
+  {
+    "eventId": "1d39c51e-b013-4728-a5a5-bfc17b02d398",
+    "userId": "87732d13",
+    "createdAt": "2025-09-26T04:44:01.687390Z",
+    "source": "WhatsApp",
+    "rawData": "{\"data_length\":285,\"status\":\"archived\",\"type\":\"alert\"}"
+  },
+  {
+    "eventId": "bf06daf2-4c9f-488a-bcb5-74a0af34cf50",
+    "userId": "8fbbae01",
+    "createdAt": "2025-09-27T16:33:59.687392Z",
+    "source": "Gmail",
+    "rawData": "{\"data_length\":287,\"status\":\"unread\",\"type\":\"notification\"}"
+  }
+]

@@ -1,0 +1,6 @@
+*.prof
+*.out
+coverage.txt
+*.svg
+*.png
+*.rb
